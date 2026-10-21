@@ -1,0 +1,20 @@
+{
+  "name": "black-hole",
+  "version": "1.0.0",
+  "description": "Procedurally generated black hole: ray-traced Schwarzschild geodesics in a three.js shader.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "render": "node render.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w0rxbend/empty.git"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
